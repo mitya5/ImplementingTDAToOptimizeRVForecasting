@@ -36,6 +36,10 @@ This paper builds upon the novel introduction of Topological Data Analysis as a 
 
 Thanks to my mentor, Sofia Sampaio Lacerda, and to the University of Chicago Mathematics REU, J. Peter May, and its organizers.
 
+## Source code
+
+The source code can be found in tda-hf-crypto: https://github.com/mitya5/tda-hf-crypto
+
 ## Contact
 
 mkoffman5@uchicago.edu
