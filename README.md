@@ -18,16 +18,6 @@ This paper builds upon the novel introduction of Topological Data Analysis as a 
 | QLIKE reduction after robust volatility controls | 3.25–3.30% | 3.9–5.9% |
 | Diebold–Mariano statistic (controlled comparison) | 8.9–9.9 | 7.6–7.8 |
 
-- **Frequency confound:** topological features computed on one-minute returns partly smuggle in finer-frequency volatility information. A ladder of non-topological controls (realized variance, bipower variation, realized range) isolates the contribution of topology itself.
-- **Where the gain lives:** mainly in turbulent regimes (Terra/Luna, FTX) and in the nonlinear model, and mainly in the asymmetric QLIKE loss rather than symmetric MSE-log.
-- **Not just a volatility proxy:** persistence entropy, which is scale-invariant, ranks among the most important features.
-
-## Methods at a glance
-
-- **Data:** one-minute OHLC bars from Binance US, 2020–2023; walk-forward out-of-sample evaluation over 2022–2023
-- **Embedding:** Takens time-delay embedding (m = 3, τ = 1) of rolling 60-minute return windows
-- **Topology:** Vietoris–Rips persistent homology (degrees 0 and 1) via Ripser; twelve features including total/maximum persistence, persistence entropy, landscape norms, and Wasserstein/bottleneck change between consecutive windows
-- **Models:** HAR-RV and XGBoost, with and without topological features and volatility controls
 
 ## Citation
 
